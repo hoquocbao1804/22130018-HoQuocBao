@@ -1,0 +1,230 @@
+*{
+    padding:0;
+    margin:0;
+    
+}
+.container{
+    background-color:beige;
+    /* grid-template-columns: 1fr 3fr;
+    grid-template-rows: 2fr 10fr;
+    grid-auto-rows: minmax(60px, auto); */
+    
+}
+/*
+bắt đầu phần bên trái 
+*/
+.dide-left{
+    /* grid-template-columns:1;
+    grid-template-rows:1/3; */
+    width:100%;
+    float: left;
+
+}
+.side-left-top{
+    display:inline-block;
+    width: 14%;
+    background-color: blue;
+    margin-left: 28px;
+    float:left;
+
+}
+.side-left-bottom{
+    position: absolute;
+    color: bisque;
+    height: 145%;
+    width: 18%;
+    display: flex;
+    background-image: linear-gradient(rgb(26, 183, 255),rgb(86, 77, 203));
+    clip-path:polygon(100% 100% ,100% 0,85% 0 ,50% 8% , 15% 0, 0 0,0 100% );
+    flex-direction: column;
+    padding-top: 3rem;
+    margin-top: 160px;
+
+    
+}
+.contact-me {
+    grid-area: 2/1 / span 3 / span 1;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.dot-left{
+    height: 5px;
+    width: 5px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: -2px;
+}
+.dot-left-big{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 3px;
+}
+.img{
+    margin-left: 65px;
+    width: 20px;
+}
+.contact{
+    display:flex ;
+    line-height: 1.2;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.contact-mee{
+    width: 120px;
+    height: 35px;
+    border-radius: 0px 30px 30px 0px;
+    display: block;
+    background-color: RGB(82, 110, 255);
+    color: white;
+    margin-right: 15px;
+    
+    
+}
+.skills{
+    margin-top: 20px;
+}
+.icon{
+    margin-left: 20px;
+    
+}
+.anh{
+    margin: 12px;
+    
+}
+.lauguage{
+    text-align: center;
+    margin: 20px;
+    
+}
+.box{
+    height: 20px;
+    width: 200px;
+    background-color: bisque;
+    border-radius: 10px;
+    margin: 8px;
+}
+.box-left{
+    height: 20px;
+    width: 150px;
+    background-color:aqua;
+    border-radius: 10px;
+}
+.PASSIONS{
+    margin-bottom: 13px;
+}
+.icon1{
+    margin: 10px;
+    
+}
+/* kết thúc phần bên trái */
+
+/* bắt đầu phần bên phải */
+.side-right{
+    
+}
+.tytle-right{
+    width: 83.9%;
+    height: 100px;
+    background-color:lightseagreen;
+    display: inline-block;
+    justify-content:flex-end;
+    text-align: center;
+    margin-top: 20px;
+    color: bisque;
+}
+.ruby-thuy{
+    font-size:56px ;
+    font-weight: 500;
+}
+.DESIGNER-DEVELOPER{
+    font-size: 20px;
+    font-weight: 400;
+}
+.side-right-bottom{
+    color: white;
+    height: 100%;
+    width: 76%;
+    margin-left:300px ;
+   
+   
+    
+}
+.profile{
+    align-items: center;
+    margin-top: 2rem;
+
+}
+.tytle-3{
+    display: flex;
+    color: blue;
+    font-size: 30px;
+    margin-left: 10px;
+    align-items: center;
+}
+.dot-left1{
+    width: 11px;
+    height: 11px;
+    background-color:darkcyan;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 5px;
+    
+}
+.p{
+    color: black;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 17px;
+}
+.item{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    
+    
+}
+.item1{
+    margin-top: 15px;
+}
+
+.year{
+    color: black;
+    margin-right: 25px;
+}
+.p1{
+    color: blue;
+    font-weight: 900;
+    font-size: 20px;
+}
+.p2{
+    color: black;
+    font-size: 17px;
+}
+.item
+.box1{
+    background-color: black;
+    width: 5px;
+    height: 44px;
+    margin-right: 40px;
+    margin-top: 5px;
+    margin-left: 13px;
+}
+.p3{
+    color: black;
+}
+.box2{
+    background-color: black;
+    width: 5px;
+    height: 55px;
+    margin-right: 40px;
+    margin-top: 5px;
+    margin-left: 13px;
+}
+
+
+
